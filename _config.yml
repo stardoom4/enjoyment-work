@@ -1,13 +1,10 @@
 # Site Data
-title: "Enjoyment Work"
+title: "Celestial Mind"
 tagline: " — a Digital Garden 🌱"
-name: "Brennan Kenneth Brown"
+name: "Celestial Entity"
 author_bio:
-  "Hey there! My name is Brennan, I'm a 27-year-old Métis web developer and content strategist from Winnipeg,
-  Manitoba and currently reside in Calgary, Alberta. I've recently compeleted a Full Stack Developer Program
-  at EvolveU, and I'm looking to help those that need web development work done, or searching for ideas and
-  management for their next content project."
-description: "A Digital Garden: Capturing my daily thoughts and progress, as well as curated ideas with unique synthesis—a personal zettelkasten."
+  "A celestial Entity floating in Zero Gravity"
+description: "A Digital Garden."
 footer_description:
   'The phrase "digital garden" is a metaphor for thinking about writing and creating that focuses less on the
   resulting "showpiece" and more on the process, care, and craft it takes to get there. While not everybody
@@ -21,12 +18,9 @@ theme_color: white
 encoding: utf-8
 
 # Links and Social Media
-donate_link: https://ko-fi.com/brennanbrown
-repository: https://github.com/brennanbrown/enjoyment-work
-github: https://github.com/brennanbrown
+repository: https://github.com/stardoom4/enjoyment-work
+github: https://github.com/stardoom4
 twitter: https://twitter.com/brennankbrown
-portfolio: https://brennanbrown.ca
-email: mail@brennanbrown.ca
 
 # Build Settings
 theme: null
@@ -55,9 +49,6 @@ collections:
   notes:
     output: true
     permalink: /notes/:title
-  journals:
-    output: true
-    permalink: /journals/:title
   pages:
     output: true
     permalink: /page/:name
@@ -81,12 +72,6 @@ defaults:
     values:
       layout: post
       content-type: notes
-  - scope:
-      path: ""
-      type: journals
-    values:
-      layout: post
-      content-type: journals
   - scope:
       path: ""
       type: pages
